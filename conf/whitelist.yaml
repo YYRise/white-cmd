@@ -1,0 +1,7 @@
+commands:
+  # 允许所有参数的命令示例
+  ls: ["*"]
+  # 限制特定参数的命令示例
+  apt-get: ["--yes", "--no-install-recommends"]
+  # 仅允许无参数执行的命令示例
+  date: []
